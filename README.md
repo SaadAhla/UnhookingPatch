@@ -7,4 +7,11 @@ Bypass EDR Hooks by patching NT API stub, and resolving SSNs and syscall instruc
 Run build.bat if you are building it first time, then you can build it after changes from **VS** command prompt.
 
 ## How do i convert binary to MAC ?
+
+Requirements: 
+1. macaddress
+
+```
+pip install macaddress
 ../tools/bin2mac.py shellcode_file.exe
+```
