@@ -13,5 +13,7 @@ Requirements:
 
 ```
 pip install macaddress
-../tools/bin2mac.py shellcode_file.exe
+./tools/bin2mac.py shellcode_file.exe
 ```
+Then check
+./tools/shellcode_file.exe.c
