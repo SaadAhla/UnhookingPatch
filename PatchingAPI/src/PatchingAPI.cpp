@@ -191,7 +191,7 @@ BOOL UnhookPatch(LPVOID addr) {
 
 	BOOL status1 = VirtualProtect(addr, 4096, PAGE_EXECUTE_READWRITE, &oldprotect);
 	if (!status1) {
-		printf("Failed in changing protection (%u)\n", GetLastError());
+		cout << "Failed in changing protection " << static_cast<unsigned>(GetLastError()) << endl;
 		return FALSE;
 	}
 
@@ -199,7 +199,7 @@ BOOL UnhookPatch(LPVOID addr) {
 
 	BOOL status2 = VirtualProtect(addr, 4096, oldprotect, &oldprotect);
 	if (!status2) {
-		printf("Failed in changing protection back (%u)\n", GetLastError());
+		cout << "Failed in changing protection back " << static_cast<unsigned>(GetLastError()) << endl;
 		return FALSE;
 	}
 	return TRUE;
