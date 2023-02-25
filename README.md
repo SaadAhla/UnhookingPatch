@@ -14,5 +14,6 @@ pip install macaddress
 ./bin2mac.py calc.bin
 ```
 #### Thanks to 
-Wͭ̊̎̆͗̽R̋E̋ͩ̒́Ǹͯ̍̅̐̓̂̆̚C̎ͥ̇̒H̐̄̇̑͐͒̓ͬ̓.ͨS̒̒͌̚YͫS _ᴿᵗˡᶻᵉʳ⁰ᴹᵉᵐᵒʳʸॐ    
+   
+[Wͭ̊̎̆͗̽R̋E̋ͩ̒́Ǹͯ̍̅̐̓̂̆̚C̎ͥ̇̒H̐̄̇̑͐͒̓ͬ̓.ͨS̒̒͌̚YͫS _ᴿᵗˡᶻᵉʳ⁰ᴹᵉᵐᵒʳʸॐ ](https://twitter.com/9ae80cbfbc324ae)
 ###### For enlighten me with the debugging stuff
